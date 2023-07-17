@@ -1,4 +1,8 @@
 import * as React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Main from './pages/main';
+import NotFound from './pages/NotFound';
+
 import './assets/css/style.css';
 
 export default function App() {
@@ -6,7 +10,7 @@ export default function App() {
     <div>
       <h1>Hello StackBlitz!</h1>
       <p>Start editi ng to see some magic happen :)</p>
-      <a href="">메인 링크</a>
+      <Main />
     </div>
   );
 }
