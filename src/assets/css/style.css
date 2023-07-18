@@ -8,6 +8,11 @@ h1,
 p {
   font-family: Lato;
 }
+a,
+button {
+  text-decoration: none;
+  color: #000;
+}
 
 .wrap {
   width: 100vw;
@@ -25,6 +30,22 @@ p {
   left: 50%;
   top: 0;
   transform: translateX(-50%);
+}
+
+.header .headerMenu {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header .headerMenu .homeBtn {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
 }
 
 .footer {
