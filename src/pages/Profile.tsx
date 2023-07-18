@@ -5,7 +5,7 @@ export default function Profile() {
   return (
     <div>
       회원정보
-      {/* <UserProfile /> */}
+      <UserProfile />
     </div>
   );
 }
