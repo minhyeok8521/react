@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Main from './pages/main';
 import Product from './pages/Product';
+import Profile from './pages/Profile';
 import NotFound from './pages/NotFound';
 
 import './assets/css/style.css';
@@ -18,6 +19,7 @@ export default function App() {
             <Routes>
               <Route path="/" element={<Main />}></Route>
               <Route path="/product/*" element={<Product />}></Route>
+              <Route path="/profile" element={<Profile />}></Route>
               <Route path="*" element={<NotFound />}></Route>
             </Routes>
           </div>

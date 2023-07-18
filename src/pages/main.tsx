@@ -8,7 +8,10 @@ export default function Main() {
       <Link to="./product/1" state={{ productNumber: '1' }}>
         1번 링크
       </Link>
-      <Link to="./product/2" state={{ productNumber: '2' }}>2번 링크</Link>
+      <Link to="./product/2" state={{ productNumber: '2' }}>
+        2번 링크
+      </Link>
+      <Link to="./Profile">회원정보</Link>
     </div>
   );
 }
