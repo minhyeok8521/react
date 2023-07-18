@@ -4,12 +4,15 @@ import { Link } from 'react-router-dom';
 export default function Header() {
   return (
     <div className="header">
-      <strong>헤더입니다.</strong>
-      <div className="headerMenu">
-        <Link to="/" className="homeBtn">
-          홈
-        </Link>
+      <Link to="/" className="backBtn">
+        뒤로가기
+      </Link>
+      <div className="haderTextBox">
+        <strong>헤더입니다.</strong>
       </div>
+      <Link to="/" className="homeBtn">
+        메뉴
+      </Link>
     </div>
   );
 }
