@@ -9,12 +9,6 @@ class UserProfileList extends React.Component {
       </div>
     );
   }
-
-
-
-
-
-
 }
 
 export default UserProfileList;
