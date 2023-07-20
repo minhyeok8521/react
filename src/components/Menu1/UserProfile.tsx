@@ -3,6 +3,8 @@ import * as React from 'react';
 class UserProfile extends React.Component {
   UserProfile = (e) => {
     e.preventDefault();
+
+    alert('a');
   };
 
   render() {
